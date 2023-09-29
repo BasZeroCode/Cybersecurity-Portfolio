@@ -1,46 +1,44 @@
 **Botium Toys Cybersecurity Project Overview**
 
-*Phase 1: Laying the Groundwork*
+*Phase 1: Setting the Foundation*
 
-I led a cybersecurity project for Botium Toys, a growing U.S. toy company expanding online. The project aimed to address concerns about business continuity, compliance, and security risks tied to the company's growth.
+Undertook a comprehensive cybersecurity project independently to conduct an internal security audit for Botium Toys, a growing U.S.-based toy company expanding its online presence. The project was initiated due to concerns about business continuity, compliance, and security risks associated with the company's growth.
 
-*Audit Scope and Goals:*
-
-Worked with the IT manager to set clear goals:
+**Audit Scope and Goals:**
 
 **Scope:**
-- Checked everything: physical and digital assets, online operations, and EU compliance.
+- Covered entire IT infrastructure, including physical and digital assets, online operations, and compliance with EU regulations.
 
 **Goals:**
-- Checked how secure things are now.
-- Identified risks and vulnerabilities.
-- Looked at compliance with U.S. and EU rules.
-- Gave recommendations for expanding the IT department.
+- Assessed current security posture.
+- Identified and documented risks, threats, and vulnerabilities.
+- Evaluated compliance with U.S. and EU payment processing regulations.
+- Provided findings and recommendations for potential IT improvements.
 
 **Risk Assessment:**
 
-Found and ranked risks to critical stuff, business operations, and sticking to the rules. This guided where we focused in the audit.
+Independently conducted a comprehensive risk assessment to identify and prioritize potential risks to critical assets, business continuity, and compliance. Guided the focus areas of the audit.
 
-*Phase 2: Checking Controls and Compliance*
+*Phase 2: Controls Assessment and Compliance Checklist*
 
-**Checking Controls:**
+**Controls Assessment:**
 
-Looked at how well the security measures were working:
+Independently evaluated the effectiveness of existing security controls by:
 
-- Who can get in?
-- How safe is the network?
-- What about keeping data safe?
-- Ready for if something goes wrong?
-- Are people trained to be careful?
+- Analyzing access controls and authentication methods.
+- Reviewing network security measures.
+- Assessing data protection practices.
+- Evaluating incident response procedures.
+- Examining employee training and awareness programs.
 
-**Checking Compliance:**
+**Compliance Checklist:**
 
-Made a checklist based on EU and U.S. payment rules. Found where things didn't match up and gave ways to fix them.
+Developed a detailed compliance checklist independently based on GDPR and U.S. payment processing requirements. Identified areas of non-compliance and provided actionable recommendations for improvement.
 
-*What We Said and Wrote Down:*
+**Recommendations and Documentation:**
 
-Put everything into a clear report. It showed Botium Toys how to improve security, follow rules, and write down what to do.
+Compiled findings and recommendations independently into a comprehensive report, serving as a guide for potential enhancements to Botium Toys' security posture, compliance, and documentation.
 
-**Results:**
+**Project Impact:**
 
-Made Botium Toys safer and helped the IT team grow. Followed a solid plan, found and fixed risks, and made sure Botium Toys followed the rules. All the details are in my GitHub portfolio. It shows how good I am at checking and fixing things for businesses.
+This independent project not only contributed to enhancing Botium Toys' security and compliance but also demonstrated the ability to work autonomously in cybersecurity auditing, risk assessment, and compliance management. The detailed documentation is available in my GitHub portfolio, showcasing expertise and commitment to securing digital environments for businesses.
