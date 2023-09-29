@@ -1,7 +1,7 @@
 **Cybersecurity-Portfolio**
 Below are the projects I worked on during my Google Cyber Security course.
 
-Google Cybersecurity Program Portfolio:
+**Google Cybersecurity Program Portfolio**
 
 Welcome to my portfolio, a testament to my immersive journey within the Google Cybersecurity Program. This compilation encapsulates a spectrum of hands-on activities, intricate lab exercises, and impactful projects designed to mirror the multifaceted responsibilities of Entry-Level Security Analysts. Throughout this portfolio, my focus has been on refining and applying key skills crucial for success in the dynamic field of cybersecurity:
 
