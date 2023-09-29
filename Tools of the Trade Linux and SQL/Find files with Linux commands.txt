@@ -1,0 +1,70 @@
+Scenario
+
+In this scenario, you have to locate and analyze the information of certain files located in the /home/analyst directory.
+
+Here’s how you’ll do this: First, you’ll get the information of the current working directory you’re in and display the contents of the directory. Second, you’ll navigate to the reports directory and list the subdirectories it contains. Third, you’ll navigate to the users subdirectory and display the contents of the Q1_added_users.txt file. Finally, you’ll navigate to the logs directory and display the first 10 lines of a file it contains.
+
+
+Task 1: Get the current directory information
+
+Display the current working directory:
+
+pwd
+
+List the contents of the current directory:
+
+ls
+
+Questions:
+
+Which directory is your current working directory?
+Ans: /home/analyst
+How many directories does the current working directory contain?
+Ans: The correct answer based on the output.
+
+Task 2: Change directory and list the subdirectories
+
+Change to the reports directory:
+
+cd /home/analyst/reports
+
+List the contents of the reports directory:
+
+ls
+
+Question:
+
+What is the name of the subdirectory in the /home/analyst/reports directory?
+Ans: The correct subdirectory name based on the output.
+
+Task 3: Locate and read the contents of a file
+
+Navigate to the users directory:
+
+cd users
+
+ls
+
+Display the contents of the Q1_added_users.txt file:
+
+cat Q1_added_users.txt
+
+Task 4: Navigate to a directory and locate a file
+
+Navigate to the logs directory:
+
+cd /home/analyst/logs
+
+ls
+
+Display the first 10 lines of the server_logs.txt file:
+
+head -n 10 server_logs.txt
+
+Questions: 
+
+How many warning messeges are in the first 10 lines of the server_logs.txt file?
+Answer: Three
+
+
+
