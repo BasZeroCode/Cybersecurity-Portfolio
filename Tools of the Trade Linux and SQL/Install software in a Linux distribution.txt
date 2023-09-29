@@ -10,14 +10,17 @@ Here’s how you'll do this: First, you’ll confirm that APT is installed on yo
 apt 
 
 sudo apt install suricata
-    Note: The apt install and apt remove commands must be prefixed with the sudo command as elevated privileges are required to install and uninstall software in Linux.
-    The Suricata application can take a few minutes to install.
 
-    When you install an application with APT, the output displays details of all the software to be installed. This may include additional applications that depend on the new software. These additional applications are called the dependencies of the software to be installed.
+Note: To install and uninstall software in Linux, it's necessary to use elevated privileges. Therefore, prefix the apt install and apt remove commands with sudo.
+
+Additionally, please be aware that the installation of the Suricata application might take a few minutes to complete.
+
+When utilizing APT to install an application, the output lists all software to be installed, including necessary additional components known as dependencies. These dependencies are essential for the proper functioning of the main application. APT efficiently manages the installation of both the application and its dependencies.
 
 suricata
 
 sudo apt remove suricata
+
 
 Suricata, a network analysis tool used for intrusion detection
 tcpdump application. This is a command-line tool that can be used to capture network traffic in a Linux Bash shell
@@ -25,4 +28,3 @@ tcpdump application. This is a command-line tool that can be used to capture net
 sudo apt install tcpdump
 
 apt list --installed
-    list all installed apps
