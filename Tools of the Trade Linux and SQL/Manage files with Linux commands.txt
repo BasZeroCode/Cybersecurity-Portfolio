@@ -1,0 +1,58 @@
+Scenario
+
+In this scenario, you need to ensure that the /home/analyst directory is properly organized.
+
+You have to make a few changes to the /home/analyst directory and the files it contains.
+
+You also have to edit a file to record the changes or updates you make to the directory.
+
+Task 1: Create a new directory
+
+mkdir /home/analyst/logs
+
+List the contents of /home/analyst:
+
+ls /home/analyst
+
+Task 2: Remove a directory
+
+rmdir /home/analyst/temp
+
+ls /home/analyst
+
+Task 3: Move a file
+
+cd /home/analyst/notes
+
+Move Q3patches.txt to the reports directory:
+
+mv Q3patches.txt ../reports/
+
+ls /home/analyst/reports
+
+Task 4: Remove a file
+
+rm tempnotes.txt
+
+ls /home/analyst/notes
+
+Task 5: Create a new file
+
+touch /home/analyst/notes/tasks.txt
+
+ls /home/analyst/notes
+
+Task 6: Edit a file
+
+nano /home/analyst/notes/tasks.txt
+
+Copy and paste the following text
+
+Completed tasks
+1. Managed file structure in /home/analyst
+
+clear
+
+Display contents of tasks.txt:
+
+cat /home/analyst/notes/tasks.txt
