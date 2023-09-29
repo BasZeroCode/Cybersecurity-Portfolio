@@ -6,7 +6,6 @@ Added a professional statement document focusing on my experience and goals in t
 
 # Document Details
 File1: My Professional Statment.pdf
-File2: My Professional Statement.png
 
 # Purpose
 This document is intended to provide a clear understanding of my background and objectives in cybersecurity. It can be referenced by collaborators, potential employers, or anyone interested in gaining insights into my professional journey in the field.
