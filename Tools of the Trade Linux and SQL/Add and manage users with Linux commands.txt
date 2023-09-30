@@ -1,0 +1,20 @@
+Scenario
+
+In this scenario, a new employee with the username researcher9 joins an organization. You have to add them to the system and continue to manage their access during their time with the organization.
+
+Here’s how you’ll do this task: First, you’ll add a new employee to the system and then to their primary group. Second, you’ll make this employee the owner of a file related to a particular project. Third, you’ll add the new employee to a supplementary group. Finally, you’ll delete the employee from the system.
+
+
+analyst@afe778cf3a93:~$ sudo useradd researcher9
+analyst@afe778cf3a93:~$ sudo usermod -g research_team researcher9
+analyst@afe778cf3a93:~$ 
+analyst@afe778cf3a93:~$ sudo chown researcher9 /home/researcher2/projects/project_r.txt
+analyst@afe778cf3a93:~$ 
+analyst@afe778cf3a93:~$ sudo usermod -aG sales_team researcher9
+analyst@afe778cf3a93:~$ 
+analyst@afe778cf3a93:~$ sudo userdel researcher9
+userdel: group researcher9 not removed because it is not the primary group of user researcher9.
+analyst@afe778cf3a93:~$ 
+analyst@afe778cf3a93:~$ sudo groupdel researcher9
+analyst@afe778cf3a93:~$ 
+
