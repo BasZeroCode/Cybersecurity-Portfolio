@@ -1,0 +1,43 @@
+Scenario
+
+In this scenario, you must examine and manage the permissions on the files in the /home/researcher2/projects directory for the researcher2 user.
+
+The researcher2 user is part of the research_team group.
+
+
+Task 1: Check file and directory details
+
+cd projects
+
+ls -l
+
+Check for hidden files
+
+ls -a
+
+The hidden file is '.project_r.txt'
+
+Task 2: Change file permissions
+
+ls -l | grep -E
+
+chmod o-w project_k.txt
+
+ls -l project_m.txt
+
+chmod g-rw project_m.txt
+
+Task 3: Change file permissions on a hidden file
+
+ls -l .project_x.txt
+
+chmod ug-w .project_x.txt
+
+Task 4: Change directory permissions
+
+ls -ld drafts
+
+chmod g-x drafts
+
+
+
