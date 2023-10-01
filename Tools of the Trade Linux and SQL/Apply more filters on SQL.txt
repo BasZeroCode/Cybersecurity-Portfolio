@@ -1,0 +1,46 @@
+Apply more filters on SQL
+
+Task 1. Retrieve login attempts after a certain date 
+
+SELECT * FROM 
+log_in_attempts 
+WHERE login_date > '2022-05-09';
+
+SELECT * 
+FROM log_in_attempts 
+WHERE login_date >= '2022-05-09';
+
+Task 2. Retrieve logins in a date range
+
+SELECT * 
+FROM log_in_attempts 
+WHERE login_date BETWEEN '2022-05-09' AND '2022-05-11';
+
+Task 3. Investigate logins at certain times
+
+SELECT * 
+FROM log_in_attempts 
+WHERE login_time < '07:00:00';
+
+SELECT * 
+FROM log_in_attempts 
+WHERE login_time BETWEEN '06:00:00' AND '07:00:00';
+
+Task 4. Investigate logins by event ID
+
+SELECT event_id, username, login_date 
+FROM log_in_attempts 
+WHERE event_id >= 100;
+
+SELECT event_id, username, login_date
+FROM log_in_attempts 
+WHERE event_id BETWEEN 100 AND 150;
+
+Answers: 
+125
+165
+123
+eraab
+06:01:31
+2022-05-10
+tmitchel
