@@ -1,0 +1,34 @@
+Decrypt an encrypted message
+
+Task 1. Read the contents of a file
+
+analyst@ee727feeda06:~$ ls
+Q1.encrypted  README.txt  caesar
+analyst@ee727feeda06:~$ cat README.txt
+Hello,
+All of your data has been encrypted. To recover your data, you will need to solve a cipher. To get started look for a hidden file in the caesar subdirectory.
+
+Task 2. Find a hidden file
+
+analyst@ee727feeda06:~$ cd caesar
+
+analyst@ee727feeda06:~/caesar$ ls -a
+.  ..  .leftShift3
+
+analyst@ee727feeda06:~/caesar$ cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"
+In order to recover your files you will need to enter the following command:
+
+Task 3. Decrypt a file
+
+analyst@ee727feeda06:~$ openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+
+analyst@ee727feeda06:~/caesar$ cd ~
+
+analyst@ee727feeda06:~$ openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+
+analyst@ee727feeda06:~$ ls
+Q1.encrypted  Q1.recovered  README.txt  caesar
+
+analyst@ee727feeda06:~$ cat Q1.recovered
+
+If you are able to read this, then you have successfully decrypted the classic cipher text. You recovered the encryption key that was used to encrypt this file. Great work!
